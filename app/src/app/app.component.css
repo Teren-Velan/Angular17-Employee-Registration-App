@@ -155,6 +155,34 @@
     position: relative;
 }
 
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.row {
+    display: flex;
+    gap: 0 0px;
+}
+
+input,
+textarea {
+    padding: 0 8px;
+    margin-right: 0 8px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.1rem 1rem;
+}
+
 @keyframes FadeInUp {
     0% {
         transform: translateY(15px);
